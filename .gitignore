@@ -39,3 +39,5 @@
 *.swp
 *.[ados]
 *.pdb
+*.ilk
+*.tlog
