@@ -1,29 +1,12 @@
--this is on linux/deiban-sid
+-this is on window 10 (linux/deiban-sid will be added soon ...)
 
 -needs SDL2 library
-    install: apt install libsdl2-dev
+    download on sdl2 website
 
--needs glm library
-    install: apt install libglm-dev
-
--needs glad library
-    download from https://glad.dav1d.de/
-    language      : C/C++
-    API           : gl version 4.1
-    Specification : OpenGL
-    Profile       : Core
-    *dont forget to hit 'ADD ALL' before hitting 'GENERATE'
-    *after download
-      put glad.c into src/glad/
-      put glad.h into include/glad/
+-no needs glad library, noly needs visual studio 2022 (latest version)
 
 -build instructions:
-    go to the project's root in your terminal.
-    type make.
-    wait till the beautiful build process finishes.
-    *if an error like 'tree command not found occured don't panic, it
-     simply means you haven't tree installed. just ignore it.
-    type ./build/An to run the Angine.
+    just install the visual studio 2022 (latest version), and then you can either build/run the project :)
 
 
 -dont' forget to have fun...
