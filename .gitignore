@@ -41,4 +41,6 @@
 
 # Visual Studio folder
 .vs/
+
+# Ignore Debug folder
 Angine/x64/Debug/
