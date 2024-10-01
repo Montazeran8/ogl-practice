@@ -38,6 +38,7 @@
 *.pdb
 *.ilk
 *.tlog
+*.log
 
 # Visual Studio folder
 .vs/
