@@ -35,3 +35,4 @@
 *.vim
 *.swp
 *.[ados]
+*.pdb
