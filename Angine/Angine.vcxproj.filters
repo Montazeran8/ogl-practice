@@ -22,6 +22,12 @@
     <Filter Include="Source Files\Angine">
       <UniqueIdentifier>{e951c66d-5913-4a52-826d-aeb93f3b9c8d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\glad">
+      <UniqueIdentifier>{00a725b2-dd32-4faa-a3be-4e6935e26633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KHR">
+      <UniqueIdentifier>{1b283df4-3638-4d4d-98aa-4efed7661521}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad\glad.c">
@@ -133,6 +139,12 @@
     </ClInclude>
     <ClInclude Include="include\Angine\An_Utilities.hpp">
       <Filter>Header Files\Angine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glad\glad.h">
+      <Filter>Header Files\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KHR\khrplatform.h">
+      <Filter>Header Files\KHR</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

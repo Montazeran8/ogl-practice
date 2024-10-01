@@ -2,6 +2,7 @@
   An_CompileShader.cpp
   An_CreateShaderProgram.cpp
   An_Draw.cpp
+  An_Init.cpp
   An_LoadGlad.cpp
   An_LoadShaderFiles.cpp
   An_Main.cpp

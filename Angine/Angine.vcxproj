@@ -166,6 +166,8 @@
     <ClInclude Include="include\Angine\An_Inits.hpp" />
     <ClInclude Include="include\Angine\An_Render.hpp" />
     <ClInclude Include="include\Angine\An_Utilities.hpp" />
+    <ClInclude Include="include\glad\glad.h" />
+    <ClInclude Include="include\KHR\khrplatform.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

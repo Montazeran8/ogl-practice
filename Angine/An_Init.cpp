@@ -11,12 +11,13 @@ namespace An{
 
     LoadSDL();
 
-    glAttribs(4,1,24,1);
+    glAttribs(4, 1, 24, 1);
 
     CreateWindow("Angine",
-        0,0,
+        SDL_WINDOWPOS_UNDEFINED,
+        SDL_WINDOWPOS_UNDEFINED,
         540,360,
-        SDL_WINDOW_OPENGL);
+        SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
 
     CreateContext();
 
