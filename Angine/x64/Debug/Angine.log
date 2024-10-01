@@ -1,0 +1,19 @@
+﻿  An_ClearColor.cpp
+  An_CompileShader.cpp
+  An_CreateShaderProgram.cpp
+  An_Draw.cpp
+  An_LoadGlad.cpp
+  An_LoadShaderFiles.cpp
+  An_Main.cpp
+  An_PipeLine.cpp
+  An_PreDraw.cpp
+  An_Render.cpp
+  An_ShaderProgramLog.cpp
+  An_TalkToTheVertex.cpp
+  An_VertexData.cpp
+  An_ViewPortUpdate.cpp
+  An_fshader_src.cpp
+  An_vshader_src.cpp
+  Generating Code...
+  glad.c
+  Angine.vcxproj -> D:\Users\Ali\Documents\GitHub\ogl-practice\x64\Debug\Angine.exe

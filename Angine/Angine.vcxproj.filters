@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\glad">
+      <UniqueIdentifier>{b272aafc-7da4-427d-98d7-800801cfcf64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Angine">
+      <UniqueIdentifier>{8f4102bb-f986-4450-a171-17d74d625193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Angine">
+      <UniqueIdentifier>{e951c66d-5913-4a52-826d-aeb93f3b9c8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad\glad.c">
+      <Filter>Source Files\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="An_CleanUps.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_ClearColor.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_CompileShader.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_CreateContext.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_CreateShaderProgram.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_CreateWindow.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_Draw.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_Events.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_Exit.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_fpsCalc.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_fshader_src.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_glAttribs.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_Globals.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_Init.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_Input.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_LoadGlad.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_LoadSDL.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_LoadShaderFiles.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_LoadTextFile.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_Main.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_PipeLine.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_PreDraw.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_Render.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_ShaderProgramLog.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_TalkToTheVertex.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_VertexData.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_ViewPortUpdate.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_vshader_src.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+    <ClCompile Include="An_WindowResized.cpp">
+      <Filter>Source Files\Angine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Angine\An_CleanUps.hpp">
+      <Filter>Header Files\Angine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Angine\An_Events.hpp">
+      <Filter>Header Files\Angine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Angine\An_Globals.hpp">
+      <Filter>Header Files\Angine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Angine\An_Inits.hpp">
+      <Filter>Header Files\Angine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Angine\An_Render.hpp">
+      <Filter>Header Files\Angine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Angine\An_Utilities.hpp">
+      <Filter>Header Files\Angine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
