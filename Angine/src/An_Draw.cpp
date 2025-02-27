@@ -4,21 +4,23 @@
 
 namespace An
 {
-  void glClearErrors(){
-    while(glGetError()!=GL_NO_ERROR);
-  }
+  void glClearErrors(){ while(glGetError()!=GL_NO_ERROR); }
 
-  bool glIsError(const char* func, int line, const char* file){
+  bool glIsError(const char* func, int line, const char* file)
+  {
     if(GLenum err = glGetError())
     {
-      std::cout << "glError: " << err << " in file "<< file << 
-        " line " << line << " : " << func << std::endl;
+      std::cout << 
+          "glError: " << err << 
+          " in file "<< file << 
+          " line " << line << 
+          " : " << func << std::endl;
       return true;
     }
     return false;
   }
 
-#define glCheck(x) glClearErrors();x;if(glIsError(#x,__LINE__,__FILE_NAME__)) Exit(1);
+#define glCheck(x) glClearErrors(); x; if(glIsError(#x, __LINE__, __FILE_NAME__)) Exit(1);
   void Draw()
   {
     glBindVertexArray(VAO);

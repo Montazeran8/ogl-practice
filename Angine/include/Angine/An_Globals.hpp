@@ -6,10 +6,9 @@
 namespace An
 {
   // defined in An_Globals.cpp
-  extern bool IsPlaying;
-  extern SDL_Window* Window;
+  extern bool          IsPlaying;
+  extern SDL_Window*   Window;
   extern SDL_GLContext Context;
-
 }
 
 #endif

@@ -10,8 +10,8 @@ namespace An
   void CreateWindow(const char* title, int x, int y, int w, int h,
       Uint32 SDL_WindowFlags)
   {
-    Window = SDL_CreateWindow(title,x,y,w,h,SDL_WindowFlags);
-    if(Window==nullptr)
+    Window = SDL_CreateWindow(title, x, y, w, h, SDL_WindowFlags);
+    if(!Window)
     {
       std::cerr << SDL_GetError() << std::endl;
       Exit(1);

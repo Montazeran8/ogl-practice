@@ -128,36 +128,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="An_CleanUps.cpp" />
-    <ClCompile Include="An_ClearColor.cpp" />
-    <ClCompile Include="An_CompileShader.cpp" />
-    <ClCompile Include="An_CreateContext.cpp" />
-    <ClCompile Include="An_CreateShaderProgram.cpp" />
-    <ClCompile Include="An_CreateWindow.cpp" />
-    <ClCompile Include="An_Draw.cpp" />
-    <ClCompile Include="An_Events.cpp" />
-    <ClCompile Include="An_Exit.cpp" />
-    <ClCompile Include="An_fpsCalc.cpp" />
-    <ClCompile Include="An_fshader_src.cpp" />
-    <ClCompile Include="An_glAttribs.cpp" />
-    <ClCompile Include="An_Globals.cpp" />
-    <ClCompile Include="An_Init.cpp" />
-    <ClCompile Include="An_Input.cpp" />
-    <ClCompile Include="An_LoadGlad.cpp" />
-    <ClCompile Include="An_LoadSDL.cpp" />
-    <ClCompile Include="An_LoadShaderFiles.cpp" />
-    <ClCompile Include="An_LoadTextFile.cpp" />
-    <ClCompile Include="An_Main.cpp" />
-    <ClCompile Include="An_PipeLine.cpp" />
-    <ClCompile Include="An_PreDraw.cpp" />
-    <ClCompile Include="An_Render.cpp" />
-    <ClCompile Include="An_ShaderProgramLog.cpp" />
-    <ClCompile Include="An_TalkToTheVertex.cpp" />
-    <ClCompile Include="An_VertexData.cpp" />
-    <ClCompile Include="An_ViewPortUpdate.cpp" />
-    <ClCompile Include="An_vshader_src.cpp" />
-    <ClCompile Include="An_WindowResized.cpp" />
-    <ClCompile Include="glad\glad.c" />
+    <ClCompile Include="src\An_CleanUps.cpp" />
+    <ClCompile Include="src\An_ClearColor.cpp" />
+    <ClCompile Include="src\An_CompileShader.cpp" />
+    <ClCompile Include="src\An_CreateContext.cpp" />
+    <ClCompile Include="src\An_CreateShaderProgram.cpp" />
+    <ClCompile Include="src\An_CreateWindow.cpp" />
+    <ClCompile Include="src\An_Draw.cpp" />
+    <ClCompile Include="src\An_Events.cpp" />
+    <ClCompile Include="src\An_Exit.cpp" />
+    <ClCompile Include="src\An_fpsCalc.cpp" />
+    <ClCompile Include="src\An_glAttribs.cpp" />
+    <ClCompile Include="src\An_Globals.cpp" />
+    <ClCompile Include="src\An_Init.cpp" />
+    <ClCompile Include="src\An_Input.cpp" />
+    <ClCompile Include="src\An_LoadGlad.cpp" />
+    <ClCompile Include="src\An_LoadSDL.cpp" />
+    <ClCompile Include="src\An_LoadShaderFiles.cpp" />
+    <ClCompile Include="src\An_LoadTextFile.cpp" />
+    <ClCompile Include="src\An_Main.cpp" />
+    <ClCompile Include="src\An_PipeLine.cpp" />
+    <ClCompile Include="src\An_PreDraw.cpp" />
+    <ClCompile Include="src\An_Render.cpp" />
+    <ClCompile Include="src\An_ShaderProgramLog.cpp" />
+    <ClCompile Include="src\An_TalkToTheVertex.cpp" />
+    <ClCompile Include="src\An_VertexData.cpp" />
+    <ClCompile Include="src\An_ViewPortUpdate.cpp" />
+    <ClCompile Include="src\An_WindowResized.cpp" />
+    <ClCompile Include="src\glad\glad.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Angine\An_CleanUps.hpp" />

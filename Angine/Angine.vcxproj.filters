@@ -30,94 +30,88 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="glad\glad.c">
+    <ClCompile Include="src\glad\glad.c">
       <Filter>Source Files\glad</Filter>
     </ClCompile>
-    <ClCompile Include="An_CleanUps.cpp">
+    <ClCompile Include="src\An_CleanUps.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_ClearColor.cpp">
+    <ClCompile Include="src\An_ClearColor.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_CompileShader.cpp">
+    <ClCompile Include="src\An_CompileShader.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_CreateContext.cpp">
+    <ClCompile Include="src\An_CreateContext.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_CreateShaderProgram.cpp">
+    <ClCompile Include="src\An_CreateShaderProgram.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_CreateWindow.cpp">
+    <ClCompile Include="src\An_CreateWindow.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_Draw.cpp">
+    <ClCompile Include="src\An_Draw.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_Events.cpp">
+    <ClCompile Include="src\An_Events.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_Exit.cpp">
+    <ClCompile Include="src\An_Exit.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_fpsCalc.cpp">
+    <ClCompile Include="src\An_fpsCalc.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_fshader_src.cpp">
+    <ClCompile Include="src\An_glAttribs.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_glAttribs.cpp">
+    <ClCompile Include="src\An_Globals.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_Globals.cpp">
+    <ClCompile Include="src\An_Init.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_Init.cpp">
+    <ClCompile Include="src\An_Input.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_Input.cpp">
+    <ClCompile Include="src\An_LoadGlad.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_LoadGlad.cpp">
+    <ClCompile Include="src\An_LoadSDL.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_LoadSDL.cpp">
+    <ClCompile Include="src\An_LoadShaderFiles.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_LoadShaderFiles.cpp">
+    <ClCompile Include="src\An_LoadTextFile.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_LoadTextFile.cpp">
+    <ClCompile Include="src\An_Main.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_Main.cpp">
+    <ClCompile Include="src\An_PipeLine.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_PipeLine.cpp">
+    <ClCompile Include="src\An_PreDraw.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_PreDraw.cpp">
+    <ClCompile Include="src\An_Render.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_Render.cpp">
+    <ClCompile Include="src\An_ShaderProgramLog.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_ShaderProgramLog.cpp">
+    <ClCompile Include="src\An_TalkToTheVertex.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_TalkToTheVertex.cpp">
+    <ClCompile Include="src\An_VertexData.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_VertexData.cpp">
+    <ClCompile Include="src\An_ViewPortUpdate.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
-    <ClCompile Include="An_ViewPortUpdate.cpp">
-      <Filter>Source Files\Angine</Filter>
-    </ClCompile>
-    <ClCompile Include="An_vshader_src.cpp">
-      <Filter>Source Files\Angine</Filter>
-    </ClCompile>
-    <ClCompile Include="An_WindowResized.cpp">
+    <ClCompile Include="src\An_WindowResized.cpp">
       <Filter>Source Files\Angine</Filter>
     </ClCompile>
   </ItemGroup>

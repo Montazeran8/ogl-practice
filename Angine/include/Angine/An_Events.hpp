@@ -6,9 +6,9 @@
 namespace An
 {
 
-  extern SDL_Event Event;
+  extern SDL_Event    Event;
   extern const Uint8* KeyboardState;
-  extern SDL_Keymod KeyMod;
+  extern SDL_Keymod   KeyMod;
 
   // main event loop. defined in An_Events.cpp
   void Events();

@@ -2,7 +2,6 @@
 
 #include <iostream>
 
-
 namespace An
 {
   // exit program returning 'status'

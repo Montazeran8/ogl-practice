@@ -9,8 +9,8 @@ namespace An
   {
     //x    y    z=0
     -0.8f, -0.8f,        //v1
-    0.0f,  0.8f,         //v2
-    0.8f, -0.8f,         //v3
+     0.0f,  0.8f,         //v2
+     0.8f, -0.8f,         //v3
   };
 
   const std::vector<GLfloat> tri_color=
@@ -23,23 +23,23 @@ namespace An
   const std::vector<GLfloat> tri_pos_col=
   {
     -0.8f,-0.8f,
-    1.0f, 0.0f, 0.0f,
-    0.8f,-0.8f,
-    0.0f, 1.0f, 0.0f,
-    0.0f, 0.8f,
-    0.0f, 0.0f, 1.0f,
+     1.0f, 0.0f, 0.0f,
+     0.8f,-0.8f,
+     0.0f, 1.0f, 0.0f,
+     0.0f, 0.8f,
+     0.0f, 0.0f, 1.0f,
   };
 
   const std::vector<GLfloat> quad_pos_col=
   {
     -0.8f, -0.8f,
-    1.0f, 0.0f, 0.0f,
-    -0.8f, 0.8f,
-    0.0f, 1.0f, 1.0f,
-    0.8f, -0.8f,
-    0.0f, 1.0f, 0.0f,
-    0.8f, 0.8f,
-    1.0f, 0.0f, 1.0f,
+     1.0f,  0.0f, 0.0f,
+    -0.8f,  0.8f,
+     0.0f,  1.0f, 1.0f,
+     0.8f, -0.8f,
+     0.0f,  1.0f, 0.0f,
+     0.8f,  0.8f,
+     1.0f,  0.0f, 1.0f,
   };
   //const std::vector<GLuint> indices=
   //{
@@ -67,32 +67,35 @@ namespace An
   {
     if(!(x>1&&y>1)) return std::vector<GLfloat>{};
 
-    GLfloat xr=1.0f/(x-1);
-    GLfloat yr=1.0f/(y-1);
+    GLfloat xr  = 1.0f / (x-1);
+    GLfloat yr  = 1.0f / (y-1);
     GLfloat min = -0.8f;
     GLfloat max = 0.8f;
     std::vector<GLfloat> grid;
-    for(uint i=0;i<x;i++)
-      for(uint j=0;j<y;j++)
+    for(uint i = 0; i < x; i++)
+      for(uint j = 0; j < y; j++)
       {
-        GLfloat tx=xr*i;
-        GLfloat ty=yr*j;
-        grid.push_back((1-ty)*min + ty*max);
-        grid.push_back((1-tx)*min + tx*max);
-        grid.push_back((float)j/(y-1));
-        grid.push_back((float)i/(x-1));
-        grid.push_back((float)(i*y+j)/(x*y-1));
+        GLfloat tx = xr * i;
+        GLfloat ty = yr * j;
+        grid.push_back((1 - ty) * min + ty * max);
+        grid.push_back((1 - tx) * min + tx * max);
+        grid.push_back((float)j / (y-1));
+        grid.push_back((float)i / (x-1));
+        grid.push_back((float)(i * y + j) / (x * y - 1));
       }
     return grid;
   }
   
   void printVerts(const std::vector<GLfloat>&vec)
   {
-    for(uint i=0;i<vec.size();i+=5)
+    for(uint i = 0;i < vec.size(); i+= 5)
     {
       std::cout << std::fixed << std::setprecision(4) <<
-          "pos:  " << vec[i] << " , " << vec[static_cast<std::vector<GLfloat, std::allocator<GLfloat>>::size_type>(i) + 1] << "\tcol:  " <<
-          vec[static_cast<std::vector<GLfloat, std::allocator<GLfloat>>::size_type>(i) + 2] << " , " << vec[static_cast<std::vector<GLfloat, std::allocator<GLfloat>>::size_type>(i) + 3] << " , " << vec[static_cast<std::vector<GLfloat, std::allocator<GLfloat>>::size_type>(i) + 4] << std::endl;
+          "pos:  " << vec[i] << " , " << 
+          vec[static_cast<std::vector<GLfloat, std::allocator<GLfloat>>::size_type>(i) + 1] << "\tcol:  " <<
+          vec[static_cast<std::vector<GLfloat, std::allocator<GLfloat>>::size_type>(i) + 2] << " , " << 
+          vec[static_cast<std::vector<GLfloat, std::allocator<GLfloat>>::size_type>(i) + 3] << " , " << 
+          vec[static_cast<std::vector<GLfloat, std::allocator<GLfloat>>::size_type>(i) + 4] << std::endl;
     }
   }
 }

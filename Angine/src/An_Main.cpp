@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
   std::cout << "\nfshader\n------------\n" <<
     An::fshader_src << std::endl;
 
-  An::printVerts(An::grid(10,10));
+  An::printVerts(An::grid(10, 10));
 
   // Loop
   while(An::IsPlaying)

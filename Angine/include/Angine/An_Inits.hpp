@@ -6,7 +6,7 @@
 namespace An
 {
   extern const Uint8* KeyboardState;
-  extern SDL_Keymod KeyMod;
+  extern SDL_Keymod   KeyMod;
 
   // initializing the Angine. defined in An_Init.cpp
   void Init();

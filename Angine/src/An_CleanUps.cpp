@@ -3,8 +3,8 @@
 
 #include <iostream>
 
-
-namespace An{
+namespace An
+{
   // clean ups before exiting the Angine
   void CleanUps()
   {

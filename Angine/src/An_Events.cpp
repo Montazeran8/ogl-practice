@@ -2,7 +2,6 @@
 
 namespace An
 {
-
   SDL_Event Event;
 
   void Events()

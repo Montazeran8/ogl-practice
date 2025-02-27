@@ -21,7 +21,7 @@ namespace An
 
     auto end = std::chrono::steady_clock::now();
     auto dur =
-      std::chrono::duration<float,std::milli>(end-start).count();
+      std::chrono::duration<float, std::milli>(end-start).count();
 
     if(ShaderProgramLog())
       std::cout << "-> done in " << (int)(dur*100)/100.0 << " ms\n";

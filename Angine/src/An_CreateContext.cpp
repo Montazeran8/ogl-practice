@@ -10,7 +10,7 @@ namespace An
   void CreateContext()
   {
     Context = SDL_GL_CreateContext(Window);
-    if(Context==nullptr)
+    if(!Context)
     {
       std::cerr << SDL_GetError() << std::endl;
       Exit(1);
